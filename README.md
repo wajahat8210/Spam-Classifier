@@ -1,22 +1,40 @@
-# Spam Classifier AI
+# Spam Classifier
 
-A machine learning classification project built using Python and Scikit-learn.
+A machine learning project that classifies text messages as spam or not spam.
 
 ## Features
 
-- Text classification
-- Spam detection
-- TF-IDF vectorization
+- Text classification with TF-IDF vectorization
 - Logistic Regression model
-- Accuracy evaluation
+- Accuracy evaluation on a held-out test set
 
-## Technologies
+## Tech Stack
 
 - Python
 - Pandas
 - Scikit-learn
 
-## Run Project
+## Installation
 
+```bash
+git clone https://github.com/wajahat8210/Spam-Classifier.git
+cd Spam-Classifier
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
 python app.py
+```
+
+## Project Structure
+
+```
+Spam-Classifier/
+├── app.py
+├── requirements.txt
+└── README.md
+```
